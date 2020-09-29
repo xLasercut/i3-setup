@@ -29,6 +29,7 @@ font pango:monospace 8
 # autostart
 exec --no-startup-id vmware-user-suid-wrapper
 exec --no-startup-id hsetroot -center ~/.local/share/wallpaper/Vanishing_by_James_Wilson.jpg
+exec --no-startup-id xsettingsd &
 exec --no-startup-id compton -b
 
 # Use Mouse+$mod to drag floating windows to their wanted position
