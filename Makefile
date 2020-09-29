@@ -14,3 +14,5 @@ setup-zsh:
 	git clone https://github.com/zsh-users/antigen.git ~/antigen
 	cp ./home/.zshrc ~/
 
+copy-config:
+	cp ./home/. ~/
