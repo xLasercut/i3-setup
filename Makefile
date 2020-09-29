@@ -3,7 +3,7 @@ install-i3:
 
 setup-fonts:
 	mkdir -p ~/.local/share/fonts
-	cd ~/.local/share/fonts && curl -fLo "JetBrains Mono Medium Nerd Font Complete Mono.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Medium/complete/JetBrains%20Mono%20Medium%20Nerd%20Font%20Complete%20Mono.ttf
+	cd ~/.local/share/fonts && curl -fLo "JetBrains Mono Medium Nerd Font Complete Mono.ttf" https://github.com/ryanoasis/nerd-fonts/raw/master/patched-fonts/JetBrainsMono/Medium/complete/JetBrains%20Mono%20Medium%20Nerd%20Font%20Complete%20Mono.ttf && curl -fLo "JetBrainsMono-Medium.ttf" https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/ttf/JetBrainsMono-Medium.ttf && curl -fLo "JetBrainsMono-MediumItalic.ttf" https://github.com/JetBrains/JetBrainsMono/raw/master/fonts/ttf/JetBrainsMono-MediumItalic.ttf
 
 setup-zsh:
 	sudo apt-get install zsh
