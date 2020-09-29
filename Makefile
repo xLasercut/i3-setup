@@ -16,3 +16,4 @@ setup-zsh:
 
 setup-sddm:
 	sudo cp -r ./sddm/simplicity /usr/share/sddm/themes/
+	sudo cp ./sddm/sddm.conf /etc/
