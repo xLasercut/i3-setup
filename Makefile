@@ -1,8 +1,8 @@
 install-i3:
-	sudo apt-get install i3 zsh
+	sudo apt-get install i3
 
-download-antigen:
+setup-zsh:
+	sudo apt-get install zsh
+	chsh -s /bin/zsh
 	git clone https://github.com/zsh-users/antigen.git ~/antigen
-
-copy-config:
-	cp -r ./home/. ~/
+	cp ./home/.zshrc ~/
