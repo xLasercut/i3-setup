@@ -1,6 +1,7 @@
 install-i3:
 	sudo apt-get install i3 rxvt-unicode rofi
 	sudo apt-get install sddm --no-install-recommends
+	cp ./home/.config/ ~/
 
 setup-fonts:
 	mkdir -p ~/.local/share/fonts
