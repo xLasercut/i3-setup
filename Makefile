@@ -15,4 +15,4 @@ setup-zsh:
 	cp ./home/.zshrc ~/
 
 copy-config:
-	cp ./home/. ~/
+	cp -r ./home/. ~/
