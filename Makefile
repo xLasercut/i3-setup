@@ -1,5 +1,5 @@
 install-i3:
-	sudo apt-get install i3 rxvt-unicode rofi lxappearance arc-theme papirus-icon-theme
+	sudo apt-get install i3 rxvt-unicode rofi lxappearance arc-theme papirus-icon-theme compton hsetroot
 	sudo apt-get install sddm gnome-terminal --no-install-recommends
 	cp ./home/.config/ ~/
 
