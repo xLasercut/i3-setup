@@ -14,3 +14,5 @@ setup-zsh:
 	rm -rf ~/antigen
 	git clone https://github.com/zsh-users/antigen.git ~/antigen
 
+setup-sddm:
+	cp ./sddm/simplicity /usr/share/sddm/themes/
