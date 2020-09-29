@@ -4,8 +4,8 @@ general {
         markup = pango
         interval = 5
         color_good = '#2f343f'
-		color_degraded = '#ebcb8b'
-		color_bad = '#ba5e57'
+        color_degraded = '#ebcb8b'
+        color_bad = '#ba5e57'
 }
 
 order += "load"
@@ -66,7 +66,7 @@ battery 1 {
 }
 
 tztime local {
-		format = "<span background='#81a1c1'> %time </span>"
-		format_time = " %a %-d %b %H:%M"
+        format = "<span background='#81a1c1'> %time </span>"
+        format_time = " %a %-d %b %H:%M"
 }
 
